@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #870000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+section {
+    margin-bottom: 30px; 
+}
+
+#Inicio {
+    text-align: center;
+    margin: 20px;
+}
+
+#Recetas {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#Recetas article {
+    margin: 0 15px; 
+    margin-bottom: 20px; 
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    
+}
+
+#Recetas img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 200px;
+}
+
+footer {
+    background-color: #870000;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div a {
+    margin-left: 10px; 
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+}
